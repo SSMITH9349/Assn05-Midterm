@@ -1,0 +1,50 @@
+
+
+@charset "UTF-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 1
+   
+   PHCT Typographic Style Sheet
+   Author: Sara Smith
+   Date:   6/4/22
+   
+   
+   Filename: ph_styles.css
+
+*/
+@font-face {
+   font-family: "The Champagne";
+   src: url('cac_champagne.woff') format('woff')
+         url('cac_champagne.ttf') format("truetype");
+   font-family: "The Grunge";
+   src:url("1942.woff") format("woff")
+      url("1942.ttf") format("truetype");
+   font-family:"The Dobkin";
+      src:url("DobkinPlain.woff") format("woff")
+         url("DobkinPlain.ttf") format("Truetype");
+   }
+
+/* Structural Styles */
+
+html{
+   background-color: hsl(91, 8%, 56%);
+}
+body{
+   background-color: hsl(58,31%,84%);
+   font-family: "Palatino Linotype", "Book Antiqua",Palatino,serif;
+}
+
+/* Navigation Styles */
+
+
+
+
+/* Section Styles */
+
+
+
+
+/* Description List Styles */
+
