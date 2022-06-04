@@ -14,7 +14,17 @@
    Filename: ph_styles.css
 
 */
-
+@font-face {
+   font-family: "The Champagne";
+   src: url('cac_champagne.woff') format('woff')
+         url('cac_champagne.ttf') format("truetype");
+   font-family: "The Grunge";
+   src:url("1942.woff") format("woff")
+      url("1942.ttf") format("truetype");
+   font-family:"The Dobkin";
+      src:url("DobkinPlain.woff") format("woff")
+         url("DobkinPlain.ttf") format("Truetype");
+   }
 
 /* Structural Styles */
 
