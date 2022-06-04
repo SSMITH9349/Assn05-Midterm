@@ -56,7 +56,12 @@ nav a{
    font-family:'Trebuchet MS', Helvetica, sans-serif;
    padding: 10px;
 }
+nav > ul >li> a:link, nav> ul> li> a:visited{
+   color:white;
+   background-color: hsla(0,0%,42%,0.4);
+   text-decoration:none;
 
+}
 
 
 /* Section Styles */
